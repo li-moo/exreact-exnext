@@ -1,0 +1,37 @@
+.led {
+  background-color: #f0f0f0;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+}
+
+.ticker {
+  display: inline-block;
+  white-space: nowrap;
+  animation: ticker-move 15s linear infinite;
+  font-size: 27px;
+  line-height: 30px;
+  padding-left: 30%;
+}
+
+@keyframes ticker-move {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-105%);
+  }
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

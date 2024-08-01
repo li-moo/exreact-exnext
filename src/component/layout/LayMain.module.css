@@ -1,0 +1,19 @@
+.layoutFlex {
+  display: flex;
+}
+
+.numberBox {
+  background-color: white;
+}
+
+.layLeftStyle {
+  width: 60%;
+  background-color: rgb(239, 239, 239);
+}
+
+.layRightStyle {
+  width: 40%;
+  background-color: rgb(239, 239, 239);
+  display: grid;
+  justify-content: center;
+}
